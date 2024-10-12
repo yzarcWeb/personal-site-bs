@@ -1,0 +1,49 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container-font-color{
+    color: #EC7173;
+}
+.custom-nav-link{
+    color: #EC7173;
+}
+.heroes-background{
+    background-image: url(./assets/beautiful-clouds-digital-art.jpg); 
+    background-size: cover;
+    height: 100dvh;
+}
+.skills-background{
+    background-image: url(./assets/sakura.png); 
+    background-size: cover;
+    height: 100dvh;
+    background-repeat: no-repeat;
+}
+#about-section{
+    height: 100dvh;
+}
+.custom-btn{
+    width: 200px;
+    border: 2px solid #EC7173;
+}
+.btn-custom-color{
+    color: #EC7173;
+}
+.custom-btn:hover, .btn-custom-color:hover{
+    background-color: #EC7173;
+    color: white;
+}
+.custom-card{
+    backdrop-filter: blur(4px) saturate(142%);
+    -webkit-backdrop-filter: blur(4px) saturate(142%);
+    background-color: rgba(255, 255, 255, 0.09);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.custom-flex{
+    background-color: #EC7173;;
+}
+#contact-section{
+    height: 90dvh;
+}
